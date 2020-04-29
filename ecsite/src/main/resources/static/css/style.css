@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+/* header */
+header{
+	margin:0;
+	padding:0;
+	background:green;
+	color:white;
+	height:70px;
+}
+header *{
+	display:inline-block;
+}
+header h1{
+	margin:0;
+	padding:0;
+	margin-left:20px;
+}
+header div{
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+}
+header span{
+	float:right;
+	margin-top:10px;
+	margin-bottom:0;
+}
+
+/*input*/
+input[name=userName]{
+	width:100px;
+}
+input[name=password]{
+	width:100px;
+}
+
+/*table*/
+table{
+	margin:20px;
+	border-collapse:collapse;
+}
+table td,table th{
+	border:1px solid gray;
+}
+th{
+	background:green;
+	color:white;
+}
+th:nth-child(1){
+	width:30px;
+}
+th:nth-child(2){
+	width:150px;
+}
+th:nth-child(3){
+	width:120px;
+}
+th:nth-child(4){
+	width:60px;
+}
+th:nth-child(5){
+	width:95px;
+}
+td:nth-child(1){
+	text-align:right;
+}
+td:nth-child(2){
+	text-align:left;
+}
+td:nth-child(3){
+	text-align:right;
+}
+td:nth-child(4){
+	text-align:center;
+}
+td:nth-child(5){
+	text-align:center;
+}
+td input{
+	width:93%;
+	text-align:right;
+}
+table#cart thead tr th{
+	background: #c0c0c0 !important;
+	color:black;
+}
+table#historyTable thead tr th:nth-child(1){
+	width:150px;
+}
+table#historyTable thead tr th:nth-child(2){
+	width:65px;
+}
+table#historyTable thead tr th:nth-child(3){
+	width:250px;
+}
+table#historyTable tbody tr td:nth-child(1){
+	padding:0 5px;
+	text-align:left;
+}
+table#historyTable tbody tr td:nth-child(2){
+	padding:0 5px;
+	text-align:right;
+}
+table#historyTable tbody tr td:nth-child(3){
+	padding:0 5px;
+	text-align:left;
+}
+
+#adminPage{
+	margin:0 30px;
+}
+
+table#adminTable thead tr th:nth-child(1){
+	width:50px;
+}
+table#adminTable thead tr th:nth-child(2){
+	width:150px;
+}
+table#adminTable thead tr th:nth-child(3){
+	width:100px;
+}
+table#adminTable thead tr th:nth-child(4){
+	width:80px;
+}
+
+table#adminTable tbody tr td:nth-child(1){
+	padding:0 5px;
+	text-align:right;
+}
+table#adminTable tbody tr td:nth-child(2){
+	padding:0 5px;
+	text-align:left;
+}
+table#adminTable tbody tr td:nth-child(3){
+	padding:0 5px;
+	text-align:right;
+}
+table#adminTable tbody tr td:nth-child(4){
+	text-align:center;
+}
